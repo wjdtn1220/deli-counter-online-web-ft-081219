@@ -14,4 +14,4 @@ end
 
 def take_a_number(katzdeli, name)
   katzdeli << name
-  puts "Welcome #{name}. "
+  puts "Welcome #{name}. You are number #{katzdeli} in line"
