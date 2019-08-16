@@ -13,6 +13,7 @@ def line(katzdeli)
 end
 
 def take_a_number(katzdeli, name)
+  if 
   katzdeli << name
   puts "Welcome #{name}. You are number #{katzdeli} in line."
 end
