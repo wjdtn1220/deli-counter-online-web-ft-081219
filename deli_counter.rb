@@ -12,8 +12,8 @@ end
 
 def take_a_number(katz_deli, name)
   kat_deli.push(name)
-  
-  puts "Welcome #{name}. You are number #{katz_deli} in line."
+  new_spot = kate_deli.push(name) + 1
+  puts "Welcome #{name}. You are number #{new_spot} in line."
   end
 end
 
