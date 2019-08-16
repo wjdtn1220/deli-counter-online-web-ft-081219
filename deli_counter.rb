@@ -9,5 +9,4 @@ def line(array)
       new_array << "#{(array.index(person).to_i + 1)}. #{person}"
     end
     puts "The line is currently: #{new_array.join(" ")}"
-  en
 end
