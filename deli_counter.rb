@@ -19,4 +19,4 @@ end
 
 def now_serving(katzdeli)
   if katzdeli == 0
-    puts ""
+    puts "There is nobody"
