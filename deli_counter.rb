@@ -12,7 +12,7 @@ end
 
 def take_a_number(katz_deli, name)
   kat_deli.push(name)
-  new_spot = kate_deli.push(name) + 1
+  new_spot = kate_deli.index(name) + 1
   puts "Welcome #{name}. You are number #{new_spot} in line."
 end
 
