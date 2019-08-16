@@ -11,8 +11,7 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, name)
-  if 
-  katz_deli << name
+  kat_deli.push(name)
   puts "Welcome #{name}. You are number #{katz_deli} in line."
   end
 end
