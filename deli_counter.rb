@@ -24,3 +24,4 @@ def now_serving(katzdeli)
     puts "Currently serving #{katzdeli.first}."
     katzdeli.shift
   end
+end
