@@ -17,4 +17,4 @@ def take_a_number(katzdeli, name)
   puts "Welcome #{name}. You are number #{katzdeli} in line."
 end
 
-def now_serving()
+def now_serving(katzdeli)
