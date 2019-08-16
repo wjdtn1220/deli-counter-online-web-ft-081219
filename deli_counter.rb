@@ -18,4 +18,4 @@ def take_a_number(katzdeli, name)
 end
 
 def now_serving(katzdeli)
-  if kat
+  if katzdeli
