@@ -21,5 +21,5 @@ def now_serving(katzdeli)
   if katzdeli == 0
     puts "There is nobody waiting to be served!"
   else
-    puts ""
+    puts "Currently serving"
   end
